@@ -1,15 +1,31 @@
 # cli-project
 
-This simple project is a pomodoro timer usable in the terminal CLI. The idea behind this is that you can set up a pomodoro timer with different focus and break timer options. This project was done within a couple of hours without the use of AI.
+This simple project is a pomodoro timer usable in the terminal CLI. The idea behind this is that you can set up a pomodoro timer with different focus and break timer options. 
+
+## Features
+
+- Custom focus and break timer
+- arguments options
+- status with time and display
+- multi threading for timer
+
+## Libraries and Tools
+
+- string stream
+- main arguments
+- thread
+- atomic variables
+
+## Getting Started
 
 1. Set up the pomodoro sessions using the set command
 
 ```
 set -f <minutes> -b <minutes> -a <bool>
 ```
--f sets focus time
--b sets break time
--a tells the timer to continue to the next cycle automatically
+- -f sets focus time
+- -b sets break time
+- -a tells the timer to continue to the next cycle automatically
 
 2. Start the timer using the start command
 
@@ -38,20 +54,7 @@ status
 ```
 
 
-## Features
 
-- Custom focus and break timer
-- arguments options
-- status with time and display
-- multi threading for timer
-
-
-## Libraries and Tools
-
-- string stream
-- main arguments
-- thread
-- atomic variables
 
 ## Problems that need to be solved
 
@@ -59,5 +62,5 @@ status
 
 ## Next steps
 
-- add a graphic UI in the terminal to show a progress bar and current status
-- add cycle count to see how many focus sessions have been completed
+- [ ] add cycle count to see how many focus sessions have been completed
+- [ ] add a graphic UI in the terminal to show a progress bar and current status
